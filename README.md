@@ -40,6 +40,23 @@ QA features single-hop question-answering tasks with context containing one corr
 **ConFiQA** is available in this repository. You can also download the **Natural Questions with knowledge conflict** dataset from [Google Drive](https://drive.google.com/file/d/1DJ1ajmLNAKVTBWnM7SkP93EYQ2cav3Mk/view).  To perform context-faithfulness evaluation on NQ dataset, follow the instructions provided in [GitHub Repository](https://github.com/wzhouad/context-faithful-llm/tree/main?tab=readme-ov-file).  
 
 
+
+## Experiments
+
+Run the **context-faithfulness evaluation** on our ConFiQA benchmark using the following command:  
+
+```bash
+python evaluation.py --model_name <model_path> --data_path ./ConFiQA/ConFiQA-QA.json --output_path ./result/output.json
+```
+
+You can also train your own **context-faithful LLMs** using our ConFiQA dataset with the following command:  
+
+```bash
+python train_dpo.py --model_name <model_path> --data_path ./ConFiQA/data_train.json --points_path ./check_points --save_path ./context-faithful_model
+```
+We recommend selecting a proportion of data from the QA, MR, and MC tasks in ConFiQA to serve as training data in `./ConFiQA/data_train.json` for DPO training.
+
+
 ## Citation
 If you find our work useful, please cite our paper:
 ```bibtex
