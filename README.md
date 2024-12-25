@@ -26,3 +26,16 @@ The four aligned models for Context-Faithfulness are now available on huggingfac
 | Context-Faithful-LLaMA-3-8b-instruct  | 🤗 [Bibaolong/Context-Faithful-LLaMA-3-8b-instruct](https://huggingface.co/Bibaolong/Context-Faithful-LLaMA-3-8b-instruct)         | [Llama3-Instruct](https://ai.meta.com/resources/models-and-libraries/llama-downloads/)|
 | Context-Faithful-Mistral-7B-instruct  | 🤗 [Bibaolong/Context-Faithful-Mistral-7B-instruct-v0.2](https://huggingface.co/Bibaolong/Context-Faithful-Mistral-7B-instruct-v0.2)         | [Mistral-Instruct](https://mistral.ai/contact/)|
 | Context-Faithful-Qwen2-7B-Instruct  | 🤗 [Bibaolong/Context-Faithful-Qwen2-7B-Instruct](https://huggingface.co/Bibaolong/Context-Faithful-Qwen2-7B-Instruct)         | [Qwen-Instruct](https://github.com/QwenLM/Qwen/blob/main/LICENSE)|
+
+
+## Citation
+If you find our work useful, please cite our paper:
+```bibtex
+@article{bi2024contextdpo,
+  title={Context-DPO: Aligning Large Language Models for Context-Faithfulness},
+  author={Bi, Baolong and Huang, Shaohan and Wang, Yiwei and Yang, Tianchi and Zhang, Zihan and Huang, Haizhen and Mei, Lingrui and Fang, Junfeng and Li, Zehao and Wei, Furu and Deng, Weiwei and Sun, Feng and Zhang, Qi and Liu, Shenghua},
+  journal={arXiv preprint arXiv:2412.15280},
+  year={2024},
+  url={https://arxiv.org/abs/2412.15280}
+}
+```
