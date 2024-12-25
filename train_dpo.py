@@ -2,13 +2,12 @@ import torch
 import os
 from transformers import TrainingArguments
 from transformers import AutoModelForCausalLM, AutoTokenizer
-# from trl import DPOConfig, DPOTrainer
+from trl import DPOConfig, DPOTrainer
 from datasets import Dataset
 import argparse
 import json
 from peft import get_peft_model, LoraConfig
 import logging
-# from unsloth import FastLanguageModel, PatchDPOTrainer
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--model_name", default="Models/llama2-7b-chat-hf", type=str)
