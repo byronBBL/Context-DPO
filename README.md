@@ -27,6 +27,10 @@ The four aligned models for Context-Faithfulness are now available on huggingfac
 | Context-Faithful-Mistral-7B-instruct  | 🤗 [Bibaolong/Context-Faithful-Mistral-7B-instruct-v0.2](https://huggingface.co/Bibaolong/Context-Faithful-Mistral-7B-instruct-v0.2)         | [Mistral-Instruct](https://mistral.ai/contact/)|
 | Context-Faithful-Qwen2-7B-Instruct  | 🤗 [Bibaolong/Context-Faithful-Qwen2-7B-Instruct](https://huggingface.co/Bibaolong/Context-Faithful-Qwen2-7B-Instruct)         | [Qwen-Instruct](https://github.com/QwenLM/Qwen/blob/main/LICENSE)|
 
+## Setup
+
+Before you begin, make sure to install the necessary packages: `torch`, `transformers`, `trl`, `peft`, `datasets`, `tqdm` and so on.
+
 
 ## Citation
 If you find our work useful, please cite our paper:
