@@ -1,0 +1,10 @@
+torch
+transformers
+trl
+datasets
+peft
+argparse
+tqdm
+numpy
+json
+logging
