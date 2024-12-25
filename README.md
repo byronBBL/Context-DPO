@@ -29,7 +29,7 @@ The four aligned models for Context-Faithfulness are now available on huggingfac
 
 ## Setup
 
-Before you begin, make sure to install the necessary packages: `torch`, `transformers`, `trl`, `peft`, `datasets`, `tqdm` and so on.
+Before you begin, make sure to install the necessary packages: `torch`, `transformers`, `trl`, `peft`, `datasets`, `tqdm` and so on. You can directly run the following command: `pip install -r requirements.txt` to download the corresponding versions.
 
 
 ## Citation
