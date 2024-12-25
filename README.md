@@ -16,3 +16,13 @@ $^1$ University of Chinese Academy of Sciences, $^2$ Microsoft Corporation, $^3$
 ![Context-DPO](overview.jpg)
 
 Reliable responses from large language models (LLMs) require adherence to user instructions and retrieved information. While alignment techniques help LLMs align with human intentions and values, improving context-faithfulness through alignment remains underexplored. To address this, we propose \textbf{Context-DPO}, the first alignment method specifically designed to enhance LLMs' context-faithfulness. We introduce \textbf{ConFiQA}, a benchmark that simulates Retrieval-Augmented Generation (RAG) scenarios with knowledge conflicts to evaluate context-faithfulness. By leveraging faithful and stubborn responses to questions with provided context from ConFiQA, our Context-DPO aligns LLMs through direct preference optimization. Extensive experiments demonstrate that our Context-DPO significantly improves context-faithfulness, achieving 35\% to 280\% improvements on popular open-source models. Further analysis demonstrates that Context-DPO preserves LLMs' generative capabilities while providing interpretable insights into context utilization.
+
+## Context-Faithful Models
+The four aligned models for Context-Faithfulness are now available on huggingface-hub:
+
+| Model Name                | HF Checkpoint                                                                              | License |
+|:--------------------------|:-------------------------------------------------------------------------------------------| :--- |
+| Context-Faithful-LLaMA-2-7b-chat-hf | 🤗 [Bibaolong/Context-Faithful-LLaMA-2-7b-chat-hf](https://huggingface.co/Bibaolong/Context-Faithful-LLaMA-2-7b-chat-hf) | [Llama2-Chat](https://ai.meta.com/resources/models-and-libraries/llama-downloads/)|
+| Context-Faithful-LLaMA-3-8b-instruct  | 🤗 [Bibaolong/Context-Faithful-LLaMA-3-8b-instruct](https://huggingface.co/Bibaolong/Context-Faithful-LLaMA-3-8b-instruct)         | [Llama3-Instruct](https://ai.meta.com/resources/models-and-libraries/llama-downloads/)|
+| Context-Faithful-Mistral-7B-instruct  | 🤗 [Bibaolong/Context-Faithful-Mistral-7B-instruct-v0.2](https://huggingface.co/Bibaolong/Context-Faithful-Mistral-7B-instruct-v0.2)         | [Mistral-Instruct](https://mistral.ai/contact/)|
+| Context-Faithful-Qwen2-7B-Instruct  | 🤗 [Bibaolong/Context-Faithful-Qwen2-7B-Instruct](https://huggingface.co/Bibaolong/Context-Faithful-Qwen2-7B-Instruct)         | [Qwen-Instruct](https://github.com/QwenLM/Qwen/blob/main/LICENSE)|
