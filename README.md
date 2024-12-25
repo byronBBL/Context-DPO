@@ -31,6 +31,8 @@ The four aligned models for Context-Faithfulness are now available on huggingfac
 
 Before you begin, make sure to install the necessary packages: `torch`, `transformers`, `trl`, `peft`, `datasets`, `tqdm` and so on. You can directly run the following command: `pip install -r requirements.txt` to download the corresponding versions.
 
+**ConFiQA** is available in this repository. You can also download the **Natural Questions with knowledge conflict** dataset from [Google Drive](https://drive.google.com/file/d/1DJ1ajmLNAKVTBWnM7SkP93EYQ2cav3Mk/view).  To perform context-faithfulness evaluation on NQ dataset, follow the instructions provided in [GitHub Repository](https://github.com/wzhouad/context-faithful-llm/tree/main?tab=readme-ov-file).  
+
 
 ## Citation
 If you find our work useful, please cite our paper:
