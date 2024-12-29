@@ -100,9 +100,14 @@ python train_dpo.py --model_name ./model_path --data_path ./ConFiQA/data_train.j
 ```
 We recommend selecting a proportion of data from the QA, MR, and MC tasks in ConFiQA to serve as training data in `./ConFiQA/data_train.json` for DPO training.
 
+## Bugs or Qustions?
+
+If you have any questions related to the repo or the paper, or you encounter any problems when using the datasets/code, feel free to email Baolong Bi (bibaolong23z@ict.ac.cn) or open an issue!
 
 ## Citation
-If you find our work useful, please cite our paper:
+[![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.2405.15280-green?color=FF8000?color=009922)](https://doi.org/10.48550/arXiv.2405.15280)
+
+Please cite our paper if it's helpful to your work!
 ```bibtex
 @article{bi2024context,
   title={Context-DPO: Aligning Language Models for Context-Faithfulness},
