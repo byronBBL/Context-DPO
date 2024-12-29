@@ -37,9 +37,9 @@ In this work, we introduce the **ConFiQA** benchmark to evaluate the context-fai
 ConFiQA consists of three datasets: **QA** (Question-Answering), **MR** (Multi-hop Reasoning), and **MC** (Multi-Conflicts).
 QA features single-hop question-answering tasks with context containing one corresponding counterfactual, while MR and MC involve multi-hop reasoning tasks with context containing one and multiple related counterfactuals, respectively.
 
-**ConFiQA** is available in this repository. You can also download the **Natural Questions with knowledge conflict** dataset from [Google Drive](https://drive.google.com/file/d/1DJ1ajmLNAKVTBWnM7SkP93EYQ2cav3Mk/view).  To perform context-faithfulness evaluation on NQ dataset, follow the instructions provided in [GitHub Repository](https://github.com/wzhouad/context-faithful-llm/tree/main?tab=readme-ov-file).  
+**ConFiQA** is available in this repository. You can also download the **Natural Questions with knowledge conflict** dataset from [Google Drive](https://drive.google.com/file/d/1DJ1ajmLNAKVTBWnM7SkP93EYQ2cav3Mk/view).  To perform context-faithfulness evaluation on NQ dataset, follow the instructions provided in [GitHub Repository](https://github.com/wzhouad/context-faithful-llm/tree/main?tab=readme-ov-file).
 
-
+## ConFiQA Format
 
 ## Experiments
 
