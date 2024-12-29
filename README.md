@@ -105,7 +105,6 @@ We recommend selecting a proportion of data from the QA, MR, and MC tasks in Con
 If you have any questions related to the repo or the paper, or you encounter any problems when using the datasets/code, feel free to email Baolong Bi (bibaolong23z@ict.ac.cn) or open an issue!
 
 ## Citation
-[![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.2405.15280-green?color=FF8000?color=009922)](https://doi.org/10.48550/arXiv.2405.15280)
 
 Please cite our paper if it's helpful to your work!
 ```bibtex
