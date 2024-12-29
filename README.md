@@ -31,7 +31,7 @@ The four aligned models for Context-Faithfulness are now available on huggingfac
 
 Before you begin, make sure to install the necessary packages: `torch`, `transformers`, `trl`, `peft`, `datasets`, `tqdm` and so on. You can directly run the following command: `pip install -r requirements.txt` to download the corresponding versions.
 
-## Dataset
+## Datasets
 
 In this work, we introduce the **ConFiQA** benchmark to evaluate the context-faithfulness of LLMs in real-world RAG scenarios involving knowledge conflicts.
 ConFiQA consists of three datasets: **QA** (Question-Answering), **MR** (Multi-hop Reasoning), and **MC** (Multi-Conflicts).
