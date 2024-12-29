@@ -104,11 +104,10 @@ We recommend selecting a proportion of data from the QA, MR, and MC tasks in Con
 ## Citation
 If you find our work useful, please cite our paper:
 ```bibtex
-@article{bi2024contextdpo,
-  title={Context-DPO: Aligning Large Language Models for Context-Faithfulness},
-  author={Bi, Baolong and Huang, Shaohan and Wang, Yiwei and Yang, Tianchi and Zhang, Zihan and Huang, Haizhen and Mei, Lingrui and Fang, Junfeng and Li, Zehao and Wei, Furu and Deng, Weiwei and Sun, Feng and Zhang, Qi and Liu, Shenghua},
+@article{bi2024context,
+  title={Context-DPO: Aligning Language Models for Context-Faithfulness},
+  author={Bi, Baolong and Huang, Shaohan and Wang, Yiwei and Yang, Tianchi and Zhang, Zihan and Huang, Haizhen and Mei, Lingrui and Fang, Junfeng and Li, Zehao and Wei, Furu and others},
   journal={arXiv preprint arXiv:2412.15280},
-  year={2024},
-  url={https://arxiv.org/abs/2412.15280}
+  year={2024}
 }
 ```
