@@ -27,6 +27,22 @@ The four aligned models for Context-Faithfulness are now available on huggingfac
 | Context-Faithful-Mistral-7B-instruct  | 🤗 [Bibaolong/Context-Faithful-Mistral-7B-instruct-v0.2](https://huggingface.co/Bibaolong/Context-Faithful-Mistral-7B-instruct-v0.2)         | [Mistral-Instruct](https://mistral.ai/contact/)|
 | Context-Faithful-Qwen2-7B-Instruct  | 🤗 [Bibaolong/Context-Faithful-Qwen2-7B-Instruct](https://huggingface.co/Bibaolong/Context-Faithful-Qwen2-7B-Instruct)         | [Qwen-Instruct](https://github.com/QwenLM/Qwen/blob/main/LICENSE)|
 
+### Usage Instructions
+
+1. **Download the model and adapter files**:  
+   Make sure you have both the pre-trained model and the adapter files.
+
+2. **Update the adapter configuration**:  
+   - Open the `adapter_config.json` file.  
+   - Locate the field `"base_model_name_or_path": "$$"`.  
+   - Replace `$$` with the path or name of your local model.
+
+3. **Load the model**:  
+   After updating the configuration, you can load the model and the adapter for use.
+
+4. **Run inference**:  
+   Once the model and adapter are loaded, you can use the model to perform tasks as needed.
+
 ## Setup
 
 Before you begin, make sure to install the necessary packages: `torch`, `transformers`, `trl`, `peft`, `datasets`, `tqdm` and so on. You can directly run the following command: `pip install -r requirements.txt` to download the corresponding versions.
